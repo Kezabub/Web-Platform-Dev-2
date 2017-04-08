@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpd2coursework", "wpd2coursework\wpd2coursework.csproj", "{31A82463-4A0D-4AD4-B5E2-DE2659952936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpd2coursework.Tests", "wpd2coursework.Tests\wpd2coursework.Tests.csproj", "{2959B8FF-C08B-4BC8-846E-FA55E4B1E672}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31A82463-4A0D-4AD4-B5E2-DE2659952936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A82463-4A0D-4AD4-B5E2-DE2659952936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A82463-4A0D-4AD4-B5E2-DE2659952936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A82463-4A0D-4AD4-B5E2-DE2659952936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2959B8FF-C08B-4BC8-846E-FA55E4B1E672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2959B8FF-C08B-4BC8-846E-FA55E4B1E672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2959B8FF-C08B-4BC8-846E-FA55E4B1E672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2959B8FF-C08B-4BC8-846E-FA55E4B1E672}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
