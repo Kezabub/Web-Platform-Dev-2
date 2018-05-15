@@ -24,6 +24,16 @@ namespace wpd2coursework.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
+        /// <summary>&lt;DbSet&gt; of type Product Used to create instance of the Products Table</summary>
+        public DbSet<Product> Products { get; set; }
+        /// <summary>&lt;DbSet&gt; of type Category Used to create instance of the Categories Table</summary>
+        public DbSet<Category> Categories { get; set; }
+        /// <summary>&lt;DbSet&gt; of type Customer Used to create instance of the CustomerOrders Table</summary>
+        public DbSet<CustomerOrder> CustomerOrders { get; set; }
+        /// <summary>&lt;DbSet&gt; of type OrderedProduct Used to create instance of the OrderedProducts Table</summary>
+        public DbSet<OrderedProduct> Orderedproducts { get; set; }
+        /// <summary>&lt;DbSet&gt; of type Cart Used to create instance of the Carts Table</summary>
+        public DbSet<Cart> Carts { get; set; }
 
         public static ApplicationDbContext Create()
         {
