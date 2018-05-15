@@ -18,6 +18,15 @@ namespace wpd2coursework.Controllers
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
+        public void MigrateShoppingCart(ApplicationUser user)
+        {
+            var cart = ShoppingCart.GetCart(this.HttpContext);
+
+            cart.MigrateCart(user.UserName);
+            Session[ShoppingCart.CartSessionKey] = user;
+
+        }
+
         public AccountController()
         {
         }
